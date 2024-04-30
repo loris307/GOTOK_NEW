@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "GoTok AI",
+    "slug": "GoTok-AI",
+    "version": "1.0.2",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "bundleIdentifier": "com.gotokai.app",
+      "buildNumber": "2"
+    },
+    "android": {
+      "package": "com.gotokai.app",
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"]
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-localization",
+      [
+        "@react-native-voice/voice",
+        {
+          "microphonePermission": "CUSTOM: Allow $(PRODUCT_NAME) to access the microphone",
+          "speechRecognitionPermission": "CUSTOM: Allow $(PRODUCT_NAME) to securely recognize user speech"
+        }
+      ],
+      ["@stripe/stripe-react-native", {
+          "merchantIdentifier": "merchant.com.gotokai",
+          "enableGooglePay": true
+      }]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "08ab252c-e9cf-4f3f-a2b5-e1323a95cde2"
+      }
+    }
+
+  }
+
+  
+}
