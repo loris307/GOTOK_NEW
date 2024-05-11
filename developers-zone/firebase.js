@@ -5,13 +5,13 @@ import { getFunctions } from 'firebase/functions';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBI31bSzoMaTD8s6Ed_ss932NyXZQArkR0",
-  authDomain: "gotok-ad170.firebaseapp.com",
-  projectId: "gotok-ad170",
-  storageBucket: "gotok-ad170.appspot.com",
-  messagingSenderId: "664033849661",
-  appId: "1:664033849661:web:3fd7bc4201d526c87a1554",
-  measurementId: "G-Y2NDV4DR7E"
+  apiKey: "AIzaSyCiE7N1T3_p2jJPkGuxJMYuqjCb932PSAM",
+  authDomain: "goflirt-ai-d8584.firebaseapp.com",
+  projectId: "goflirt-ai-d8584",
+  storageBucket: "goflirt-ai-d8584.appspot.com",
+  messagingSenderId: "66699358202",
+  appId: "1:66699358202:web:55a11f4c86815944003e43",
+  measurementId: "G-6F1B50Q4QY"
 };
 
 const app = initializeApp(firebaseConfig);
