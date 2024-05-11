@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "gotok-ad170"
-  }
+    "default": "goflirt-ai-d8584",
+    "GoFlirt": "goflirt-ai-d8584"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
